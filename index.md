@@ -2,117 +2,190 @@
 layout: default
 ---
 
+<div class="top-nav">
+
+<span class="brand">METRICMOOD</span>
+
+<div class="nav-links">
+<a href="https://github.com/metricmood">GITHUB ↗</a>
+<a href="https://www.linkedin.com/">LINKEDIN ↗</a>
+</div>
+
+</div>
+
+
 <div class="hero">
 
 <img class="profile-photo"
      src="images/metricmoodgh.jpg"
      alt="MetricMood profile picture">
 
-<h1>Hi, I'm MetricMood 👋</h1>
+<p class="eyebrow">DATA ANALYST</p>
 
-<p class="subtitle">Data Analyst</p>
+<h1>Hi, I'm MetricMood.</h1>
 
-<p class="links">
-<a href="https://github.com/metricmood">GitHub</a>
-<span>·</span>
-<a href="https://www.linkedin.com/">LinkedIn</a>
-<span>·</span>
-<a href="mailto:your-email@example.com">Email</a>
+<p class="hero-description">
+I use data to solve problems, discover insights
+and support better decision-making.
 </p>
+
+<div class="hero-links">
+
+<a href="https://github.com/metricmood">GitHub ↗</a>
+
+<span>·</span>
+
+<a href="https://www.linkedin.com/">LinkedIn ↗</a>
+
+<span>·</span>
+
+<a href="mailto:your-email@example.com">Email ↗</a>
 
 </div>
 
+</div>
+
+
 ---
 
-## 👋 About Me
+## ABOUT
 
 I'm a Data Analyst interested in using data to solve problems, discover insights, and support better decision-making.
 
 I'm continuously developing my skills in data analysis, visualisation, programming, and working with data.
 
+
 ---
 
-## 🛠 Skills
+## SKILLS
 
 <div class="skills">
 
-<span>Python</span>
+<span>PYTHON</span>
 <span>SQL</span>
-<span>Excel</span>
-<span>Power BI</span>
-<span>Pandas</span>
-<span>Data Visualisation</span>
-<span>Data Cleaning</span>
-<span>Jupyter</span>
+<span>POWER BI</span>
+<span>EXCEL</span>
+<span>PANDAS</span>
+<span>DATA VISUALISATION</span>
+<span>DATA CLEANING</span>
+<span>GIT</span>
 
 </div>
 
+
 ---
 
-## 🚀 Selected Projects
+## SELECTED PROJECTS
 
-<div class="projects">
+<div class="project-grid">
 
-### NHS Performance Analysis
 
-**Data analysis and visualisation project**
+<div class="project-card">
 
+<p class="project-number">01</p>
+
+<h3>NHS PERFORMANCE ANALYSIS</h3>
+
+<p>
 Analysing healthcare performance data to identify trends, patterns and opportunities for improvement.
+</p>
 
-`Power BI` `Excel` `Data Analysis`
+<div class="project-tags">
+<span>POWER BI</span>
+<span>EXCEL</span>
+<span>DATA ANALYSIS</span>
+</div>
 
-[View project →](https://github.com/metricmood)
-
----
-
-### Data Analysis Project
-
-**Exploring data to find meaningful insights**
-
-A data analysis project using Python and Pandas to clean, explore and visualise a dataset.
-
-`Python` `Pandas` `Matplotlib`
-
-[View project →](https://github.com/metricmood)
-
----
-
-### SQL Data Exploration
-
-**Using SQL to answer business questions**
-
-A SQL project focused on querying, transforming and analysing structured data.
-
-`SQL` `Data Analysis` `Data Cleaning`
-
-[View project →](https://github.com/metricmood)
+<a href="https://github.com/metricmood">
+VIEW PROJECT →
+</a>
 
 </div>
 
+
+<div class="project-card">
+
+<p class="project-number">02</p>
+
+<h3>DATA ANALYSIS PROJECT</h3>
+
+<p>
+A Python project focused on cleaning, exploring and visualising a dataset to identify meaningful insights.
+</p>
+
+<div class="project-tags">
+<span>PYTHON</span>
+<span>PANDAS</span>
+<span>MATPLOTLIB</span>
+</div>
+
+<a href="https://github.com/metricmood">
+VIEW PROJECT →
+</a>
+
+</div>
+
+
+<div class="project-card">
+
+<p class="project-number">03</p>
+
+<h3>SQL DATA EXPLORATION</h3>
+
+<p>
+Using SQL to query, transform and analyse structured data to answer practical business questions.
+</p>
+
+<div class="project-tags">
+<span>SQL</span>
+<span>DATA CLEANING</span>
+<span>ANALYSIS</span>
+</div>
+
+<a href="https://github.com/metricmood">
+VIEW PROJECT →
+</a>
+
+</div>
+
+
+</div>
+
+
 ---
 
-## 📊 Currently Learning
+## CURRENTLY LEARNING
 
-I'm currently developing my skills in:
+<div class="learning">
 
-`Python` · `SQL` · `Power BI` · `Data Visualisation` · `Machine Learning`
+<span>PYTHON</span>
+<span>SQL</span>
+<span>POWER BI</span>
+<span>DATA VISUALISATION</span>
+<span>MACHINE LEARNING</span>
 
----
+</div>
 
-## 📫 Let's Connect
-
-I'm always happy to connect with other people working with data.
-
-**GitHub:** [@metricmood](https://github.com/metricmood)
-
-**LinkedIn:** [Connect with me](https://www.linkedin.com/)
-
-**Email:** [Get in touch](mailto:your-email@example.com)
 
 ---
 
-<div class="footer-message">
+## CONTACT
 
-Thanks for visiting my portfolio ⭐
+I'd love to connect with other people working with data.
+
+**GitHub** — [@metricmood](https://github.com/metricmood)
+
+**LinkedIn** — [Connect with me](https://www.linkedin.com/)
+
+**Email** — [Get in touch](mailto:your-email@example.com)
+
+
+<div class="footer">
+
+METRICMOOD · DATA ANALYST
+
+<br>
+
+Thanks for visiting ⭐
 
 </div>
