@@ -186,6 +186,6 @@ METRICMOOD · DATA ANALYST
 
 <br>
 
-Thanks for visiting ⭐
+Thanks for visiting 
 
 </div>
