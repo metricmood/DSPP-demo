@@ -6,7 +6,7 @@
 
 /* =========================================================
    METRICMOOD
-   Wide Editorial / Dark Minimalist Portfolio
+   DARK DATA STUDIO
    ========================================================= */
 
 
@@ -27,7 +27,8 @@ body {
   padding: 0;
 
   background: #0d0f10 !important;
-  color: #e8e9e6;
+
+  color: #b7bdc1;
 
   font-family:
     -apple-system,
@@ -38,16 +39,18 @@ body {
     sans-serif;
 
   font-size: 16px;
+
   line-height: 1.7;
 }
 
 
 /* =========================================================
-   PAGE WIDTH
+   MAIN WIDTH
    ========================================================= */
 
 .wrapper {
   width: 100%;
+
   max-width: 1400px;
 
   margin: 0 auto;
@@ -60,17 +63,19 @@ body {
 section,
 #main_content {
   width: 100%;
+
   max-width: 1290px;
 
   margin: 0 auto;
 
   background: #0d0f10 !important;
-  color: #e8e9e6;
+
+  color: #b7bdc1;
 }
 
 
 /* =========================================================
-   REMOVE ORIGINAL MODERNIST HEADER
+   REMOVE ORIGINAL GITHUB THEME HEADER
    ========================================================= */
 
 #header_wrap,
@@ -104,9 +109,10 @@ a:hover {
    ========================================================= */
 
 .top-nav {
-  display: flex !important;
+  display: flex;
 
   justify-content: space-between;
+
   align-items: center;
 
   padding: 25px 0;
@@ -123,7 +129,8 @@ a:hover {
 .brand {
   color: #f1f2ef;
 
-  font-size: 15px;
+  font-size: 14px;
+
   font-weight: 700;
 
   letter-spacing: 2px;
@@ -136,11 +143,11 @@ a:hover {
 }
 
 .nav-links a {
-  color: #858c93;
+  color: #727a80;
 
-  font-size: 12px;
+  font-size: 11px;
 
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .nav-links a:hover {
@@ -155,13 +162,14 @@ a:hover {
 .hero {
   text-align: center;
 
-  padding: 70px 20px 75px;
+  padding: 70px 20px 80px;
 
   border-bottom: 1px solid #292d31;
 }
 
 .profile-photo {
   width: 175px;
+
   height: 175px;
 
   display: block;
@@ -189,7 +197,7 @@ a:hover {
     "Liberation Mono",
     monospace;
 
-  font-size: 12px;
+  font-size: 11px;
 
   font-weight: 700;
 
@@ -205,13 +213,13 @@ a:hover {
 
   font-weight: 650;
 
+  line-height: 1.2;
+
   letter-spacing: -2px;
 }
 
 .hero-description {
-  max-width: 650px;
-
-  margin: 20px auto;
+  margin: 20px auto 0;
 
   color: #b7bdc1;
 
@@ -233,7 +241,7 @@ a:hover {
     "Liberation Mono",
     monospace;
 
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .hero-links span {
@@ -244,24 +252,28 @@ a:hover {
 
 
 /* =========================================================
+   PORTFOLIO SECTIONS
+   ========================================================= */
+
+.portfolio-section {
+  width: 100%;
+
+  padding: 0;
+}
+
+
+/* =========================================================
    SECTION HEADINGS
    ========================================================= */
 
-h1,
-h2,
-h3 {
-  color: #f1f2ef !important;
-}
-
 h2 {
-  margin-top: 65px;
-  margin-bottom: 28px;
+  margin: 70px 0 0;
 
-  padding-bottom: 12px;
+  padding: 0 0 14px;
 
   border-bottom: 1px solid #292d31;
 
-  color: #f1f2ef !important;
+  color: #62c7c0 !important;
 
   font-family:
     "SFMono-Regular",
@@ -269,24 +281,13 @@ h2 {
     "Liberation Mono",
     monospace;
 
-  font-size: 13px;
+  font-size: 11px;
 
   font-weight: 700;
 
+  line-height: 1.4;
+
   letter-spacing: 2px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-
-/* =========================================================
-   BODY TEXT
-   ========================================================= */
-
-p {
-  color: #b7bdc1;
 }
 
 
@@ -294,41 +295,65 @@ p {
    ABOUT
    ========================================================= */
 
-.about {
-  max-width: 1000px;
+.about-content {
+  display: grid;
 
-  font-size: 17px;
+  grid-template-columns: 250px 1fr;
 
-  line-height: 1.8;
+  gap: 70px;
+
+  padding: 40px 0 20px;
 }
 
-.about p {
-  margin-bottom: 22px;
+.section-meta {
+  color: #626a70;
+
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+
+  line-height: 1.8;
+
+  letter-spacing: 1px;
+}
+
+.about-text {
+  max-width: 850px;
+}
+
+.about-text p {
+  margin: 0 0 22px;
+
+  color: #b7bdc1;
+
+  font-size: 16px;
+
+  line-height: 1.85;
 }
 
 
 /* =========================================================
-   SKILLS
+   TOOLKIT
    ========================================================= */
 
-.skills,
-.learning {
+.toolkit {
   display: flex;
 
   flex-wrap: wrap;
 
-  gap: 10px;
+  gap: 0;
+
+  padding: 30px 0 35px;
 }
 
-.skills span,
-.learning span {
-  padding: 8px 13px;
+.toolkit span {
+  padding: 10px 18px;
 
-  background: #15181b;
-
-  border: 1px solid #30353a;
-
-  border-radius: 4px;
+  border-right: 1px solid #292d31;
 
   color: #b7bdc1;
 
@@ -341,74 +366,42 @@ p {
   font-size: 11px;
 
   letter-spacing: 1px;
-
-  transition:
-    border-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
 }
 
-.skills span:hover,
-.learning span:hover {
-  border-color: #62c7c0;
+.toolkit span:first-child {
+  padding-left: 0;
+}
 
-  color: #62c7c0;
-
-  transform: translateY(-2px);
+.toolkit span:last-child {
+  border-right: 0;
 }
 
 
 /* =========================================================
-   PROJECT GRID
+   SELECTED WORK
    ========================================================= */
 
-.project-grid {
+.project-row {
   display: grid;
 
   grid-template-columns:
-    repeat(3, 1fr);
+    80px
+    minmax(0, 1fr)
+    150px;
 
-  gap: 20px;
-}
+  gap: 30px;
 
+  align-items: center;
 
-/* =========================================================
-   PROJECT CARDS
-   ========================================================= */
+  padding: 38px 0;
 
-.project-card {
-  display: flex;
-
-  flex-direction: column;
-
-  min-height: 330px;
-
-  padding: 30px;
-
-  background: #15181b;
-
-  border: 1px solid #292e33;
-
-  border-radius: 6px;
-
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    background 0.2s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-4px);
-
-  background: #171a1d;
-
-  border-color: #3d7773;
+  border-bottom: 1px solid #292d31;
 }
 
 .project-number {
-  margin: 0 0 22px;
+  align-self: start;
 
-  color: #62c7c0 !important;
+  color: #62c7c0;
 
   font-family:
     "SFMono-Regular",
@@ -417,14 +410,16 @@ p {
     monospace;
 
   font-size: 12px;
+
+  letter-spacing: 1px;
 }
 
-.project-card h3 {
-  margin: 0 0 15px;
+.project-content h3 {
+  margin: 0 0 10px;
 
   color: #f1f2ef !important;
 
-  font-size: 19px;
+  font-size: 20px;
 
   font-weight: 700;
 
@@ -433,8 +428,10 @@ p {
   letter-spacing: 0.3px;
 }
 
-.project-card p {
-  margin-top: 5px;
+.project-content p {
+  max-width: 700px;
+
+  margin: 0;
 
   color: #aeb5ba;
 
@@ -453,9 +450,9 @@ p {
 
   flex-wrap: wrap;
 
-  gap: 8px;
+  gap: 12px;
 
-  margin: 22px 0;
+  margin-top: 18px;
 }
 
 .project-tags span {
@@ -469,22 +466,163 @@ p {
 
   font-size: 10px;
 
-  letter-spacing: 0.7px;
+  letter-spacing: 0.8px;
 }
 
 
 /* =========================================================
-   PROJECT LINKS
+   PROJECT ACTION
    ========================================================= */
 
-.project-card > a {
-  display: inline-block;
+.project-action {
+  text-align: right;
+}
 
-  margin-top: auto;
-
-  padding-top: 18px;
-
+.project-action a {
   color: #62c7c0;
+
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  white-space: nowrap;
+}
+
+.project-action a:hover {
+  color: #8be0da;
+}
+
+
+/* =========================================================
+   CURRENTLY LEARNING
+   ========================================================= */
+
+.learning-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, 1fr);
+
+  border-bottom: 1px solid #292d31;
+
+  padding: 30px 0;
+}
+
+.learning-item {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  padding: 5px 20px;
+
+  border-right: 1px solid #292d31;
+}
+
+.learning-item:first-child {
+  padding-left: 0;
+}
+
+.learning-item:last-child {
+  border-right: 0;
+}
+
+.learning-number {
+  color: #626a70;
+
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+}
+
+.learning-item > span:last-child {
+  color: #b7bdc1;
+
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+
+  letter-spacing: 0.8px;
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.contact-section {
+  padding-bottom: 20px;
+}
+
+.contact-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 80px;
+
+  padding: 35px 0 50px;
+}
+
+.contact-intro p {
+  max-width: 450px;
+
+  margin: 0;
+
+  color: #b7bdc1;
+
+  font-size: 16px;
+}
+
+.contact-links {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.contact-links div {
+  display: grid;
+
+  grid-template-columns: 100px 1fr;
+
+  gap: 20px;
+}
+
+.contact-links span {
+  color: #626a70;
+
+  font-family:
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+}
+
+.contact-links a {
+  color: #b7bdc1;
 
   font-family:
     "SFMono-Regular",
@@ -494,35 +632,11 @@ p {
 
   font-size: 11px;
 
-  font-weight: 600;
-
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
-.project-card > a:hover {
-  color: #8be0da;
-}
-
-
-/* =========================================================
-   HORIZONTAL RULES
-   ========================================================= */
-
-hr {
-  border: 0;
-
-  border-top: 1px solid #292d31;
-
-  margin: 50px 0;
-}
-
-
-/* =========================================================
-   CONTACT
-   ========================================================= */
-
-strong {
-  color: #f1f2ef;
+.contact-links a:hover {
+  color: #62c7c0;
 }
 
 
@@ -531,9 +645,9 @@ strong {
    ========================================================= */
 
 .footer {
-  margin-top: 90px;
+  margin-top: 60px;
 
-  padding: 35px 0 50px;
+  padding: 30px 0 50px;
 
   border-top: 1px solid #292d31;
 
@@ -547,14 +661,16 @@ strong {
     "Liberation Mono",
     monospace;
 
-  font-size: 11px;
+  font-size: 10px;
+
+  line-height: 2;
 
   letter-spacing: 1px;
 }
 
 
 /* =========================================================
-   RESPONSIVE — TABLET
+   TABLET
    ========================================================= */
 
 @media screen and (max-width: 1000px) {
@@ -563,20 +679,40 @@ strong {
     padding: 0 35px;
   }
 
-  section,
-  #main_content {
-    max-width: 100%;
+  .about-content {
+    grid-template-columns: 180px 1fr;
+
+    gap: 40px;
   }
 
-  .project-grid {
+  .project-row {
     grid-template-columns:
-      repeat(2, 1fr);
+      60px
+      minmax(0, 1fr)
+      130px;
+
+    gap: 20px;
   }
+
+  .learning-grid {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+  .learning-item:nth-child(3) {
+    border-right: 0;
+  }
+
+  .learning-item:nth-child(4),
+  .learning-item:nth-child(5) {
+    margin-top: 20px;
+  }
+
 }
 
 
 /* =========================================================
-   RESPONSIVE — MOBILE
+   MOBILE
    ========================================================= */
 
 @media screen and (max-width: 700px) {
@@ -592,11 +728,11 @@ strong {
   }
 
   .nav-links {
-    gap: 14px;
+    gap: 15px;
   }
 
   .nav-links a {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .hero {
@@ -605,6 +741,7 @@ strong {
 
   .profile-photo {
     width: 145px;
+
     height: 145px;
   }
 
@@ -618,19 +755,106 @@ strong {
     font-size: 16px;
   }
 
-  .project-grid {
-    grid-template-columns: 1fr;
+  h2 {
+    margin-top: 55px;
   }
 
-  h2 {
-    margin-top: 50px;
+  .about-content {
+    display: block;
+
+    padding-top: 30px;
+  }
+
+  .section-meta {
+    margin-bottom: 25px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .toolkit {
+    padding-top: 20px;
+  }
+
+  .toolkit span {
+    padding: 8px 12px;
+  }
+
+  .toolkit span:first-child {
+    padding-left: 0;
+  }
+
+  .project-row {
+    display: block;
+
+    padding: 30px 0;
+  }
+
+  .project-number {
+    margin-bottom: 12px;
+  }
+
+  .project-content h3 {
+    font-size: 18px;
+  }
+
+  .project-action {
+    margin-top: 22px;
+
+    text-align: left;
+  }
+
+  .learning-grid {
+    display: block;
+
+    padding: 10px 0;
+  }
+
+  .learning-item {
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 15px 0;
+
+    border-right: 0;
+
+    border-bottom: 1px solid #292d31;
+  }
+
+  .learning-item:last-child {
+    border-bottom: 0;
+  }
+
+  .learning-item:nth-child(4),
+  .learning-item:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .contact-grid {
+    display: block;
+
+    padding-top: 30px;
+  }
+
+  .contact-intro {
+    margin-bottom: 35px;
+  }
+
+  .contact-links div {
+    grid-template-columns: 85px 1fr;
   }
 
 }
 
 
 /* =========================================================
-   RESPONSIVE — VERY SMALL SCREENS
+   VERY SMALL MOBILE
    ========================================================= */
 
 @media screen and (max-width: 450px) {
@@ -638,15 +862,7 @@ strong {
   .top-nav {
     flex-direction: column;
 
-    align-items: flex-start;
-
     gap: 12px;
-  }
-
-  .nav-links {
-    width: 100%;
-
-    justify-content: flex-start;
   }
 
   .hero h1 {
@@ -655,6 +871,16 @@ strong {
 
   .hero-description {
     font-size: 15px;
+  }
+
+  .contact-links div {
+    display: block;
+  }
+
+  .contact-links span {
+    display: block;
+
+    margin-bottom: 4px;
   }
 
 }
