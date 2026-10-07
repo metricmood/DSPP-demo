@@ -1,8 +1,8 @@
 ## <strong>PORTFOLIO</strong>
 
-## Skills
+## <strong>SKILLS</strong>
 
-## Projects
+## <strong>PROJECTS</strong>
 
 Link to Project [Project](https://github.com/AXJAS/knapsack_problem/)
 ![Histogram](/images/histogram-example-2.png)
