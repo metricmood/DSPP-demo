@@ -1,4 +1,4 @@
-# Portfolio
+## <strong>PORTFOLIO</strong>
 
 ## Skills
 
