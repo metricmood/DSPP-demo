@@ -199,15 +199,19 @@ a:hover {
 }
 
 .hero-description {
-  max-width: 580px;
+  max-width: 650px;
 
   margin: 20px auto;
 
-  color: #aeb5ba;
+  color: #d0d4d6;
 
-  font-size: 14px;
+  font-size: 18px;
+
+  font-weight: 500;
 
   line-height: 1.7;
+
+  letter-spacing: 0.3px;
 }
 
 .hero-links {
