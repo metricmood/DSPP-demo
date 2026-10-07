@@ -25,8 +25,8 @@ layout: default
 <h1>Hi, I'm MetricMood</h1>
 
 <p class="hero-description">
-I use data to solve problems, discover insights
-and support better decision-making.
+I’m a Data Analyst focused on turning complex data into clear, actionable insights. I enjoy exploring data, identifying trends and patterns, and creating visualisations that make information easier to understand and use.
+I’m developing my skills across Python, SQL, Power BI and data visualisation, with a particular interest in healthcare performance analysis and turning data into insights that support better decisions.
 </p>
 
 <div class="hero-links">
