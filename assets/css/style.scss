@@ -5,19 +5,30 @@
 
 
 /* =========================================
-   METRICMOOD — DARK MINIMAL
+   METRICMOOD
+   Dark Minimalist Portfolio
    ========================================= */
 
 
-/* ---------- GLOBAL ---------- */
+/* =========================================
+   GLOBAL
+   ========================================= */
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  background: #0d0f10;
+}
+
 body {
-  background: #101214;
+  margin: 0;
+  padding: 0;
+
+  background: #0d0f10 !important;
   color: #e8e9e6;
+
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -25,12 +36,42 @@ body {
     Helvetica,
     Arial,
     sans-serif;
+
   font-size: 16px;
   line-height: 1.7;
 }
 
+
+/* Remove the default Modernist page backgrounds */
+
+.wrapper,
+section,
+#main_content {
+  background: #0d0f10 !important;
+  color: #e8e9e6;
+}
+
+
+/* =========================================
+   REMOVE DEFAULT MODERNIST HEADER
+   ========================================= */
+
+#header_wrap {
+  display: none !important;
+}
+
+header {
+  display: none !important;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
 .wrapper {
   max-width: 1100px;
+  margin: 0 auto;
 }
 
 section {
@@ -40,12 +81,14 @@ section {
 }
 
 
-/* ---------- LINKS ---------- */
+/* =========================================
+   LINKS
+   ========================================= */
 
 a {
   color: #62c7c0;
   text-decoration: none;
-  transition: 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 a:hover {
@@ -54,7 +97,9 @@ a:hover {
 }
 
 
-/* ---------- NAVIGATION ---------- */
+/* =========================================
+   TOP NAVIGATION
+   ========================================= */
 
 .top-nav {
   display: flex;
@@ -73,9 +118,11 @@ a:hover {
 }
 
 .brand {
-  color: #e8e9e6;
+  color: #f1f2ef;
+
   font-size: 15px;
   font-weight: 700;
+
   letter-spacing: 2px;
 }
 
@@ -86,7 +133,9 @@ a:hover {
 
 .nav-links a {
   color: #858c93;
+
   font-size: 12px;
+
   letter-spacing: 1px;
 }
 
@@ -95,12 +144,16 @@ a:hover {
 }
 
 
-/* ---------- HERO ---------- */
+/* =========================================
+   HERO
+   ========================================= */
 
 .hero {
   text-align: center;
 
-  padding: 75px 20px 85px;
+  padding: 65px 20px 65px;
+
+  border-bottom: 1px solid #292d31;
 }
 
 .profile-photo {
@@ -109,14 +162,16 @@ a:hover {
 
   object-fit: cover;
 
+  display: block;
+
+  margin: 0 auto 30px;
+
   border-radius: 50%;
 
   border: 1px solid #343a3f;
 
   box-shadow:
-    0 0 0 8px #171a1d;
-
-  margin-bottom: 30px;
+    0 0 0 6px #15181b;
 }
 
 .eyebrow {
@@ -140,7 +195,7 @@ a:hover {
 .hero h1 {
   margin: 0;
 
-  color: #f1f2ef;
+  color: #f1f2ef !important;
 
   font-size: 48px;
 
@@ -154,7 +209,7 @@ a:hover {
 
   margin: 20px auto;
 
-  color: #9ba1a7;
+  color: #aeb5ba;
 
   font-size: 18px;
 
@@ -180,18 +235,23 @@ a:hover {
 }
 
 
-/* ---------- SECTION HEADINGS ---------- */
+/* =========================================
+   HEADINGS
+   ========================================= */
+
+h1,
+h2,
+h3 {
+  color: #f1f2ef !important;
+}
 
 h2 {
-  margin-top: 75px;
-
+  margin-top: 60px;
   margin-bottom: 30px;
 
   padding-bottom: 12px;
 
   border-bottom: 1px solid #292d31;
-
-  color: #f1f2ef;
 
   font-family:
     "SFMono-Regular",
@@ -207,18 +267,22 @@ h2 {
 }
 
 h3 {
-  color: #f1f2ef;
+  font-size: 18px;
 }
 
 
-/* ---------- BODY TEXT ---------- */
+/* =========================================
+   BODY TEXT
+   ========================================= */
 
 p {
-  color: #aeb3b7;
+  color: #b7bdc1;
 }
 
 
-/* ---------- SKILLS ---------- */
+/* =========================================
+   SKILLS
+   ========================================= */
 
 .skills,
 .learning {
@@ -234,13 +298,13 @@ p {
 
   padding: 8px 12px;
 
+  background: #15181b;
+
   border: 1px solid #30353a;
 
   border-radius: 4px;
 
-  background: #15181b;
-
-  color: #9da5aa;
+  color: #b7bdc1;
 
   font-family:
     "SFMono-Regular",
@@ -252,7 +316,10 @@ p {
 
   letter-spacing: 1px;
 
-  transition: 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .skills span:hover,
@@ -266,7 +333,9 @@ p {
 }
 
 
-/* ---------- PROJECT GRID ---------- */
+/* =========================================
+   PROJECT GRID
+   ========================================= */
 
 .project-grid {
 
@@ -276,11 +345,12 @@ p {
     repeat(2, 1fr);
 
   gap: 18px;
-
 }
 
 
-/* ---------- PROJECT CARDS ---------- */
+/* =========================================
+   PROJECT CARDS
+   ========================================= */
 
 .project-card {
 
@@ -323,12 +393,20 @@ p {
 
   margin: 0 0 12px;
 
+  color: #f1f2ef !important;
+
   font-size: 18px;
+
+  font-weight: 700;
 
   letter-spacing: 0.5px;
 }
 
 .project-card p {
+
+  margin-top: 5px;
+
+  color: #aeb5ba;
 
   font-size: 14px;
 
@@ -336,7 +414,9 @@ p {
 }
 
 
-/* ---------- PROJECT TAGS ---------- */
+/* =========================================
+   PROJECT TAGS
+   ========================================= */
 
 .project-tags {
 
@@ -365,13 +445,17 @@ p {
 }
 
 
-/* ---------- PROJECT LINK ---------- */
+/* =========================================
+   PROJECT LINKS
+   ========================================= */
 
 .project-card > a {
 
   display: inline-block;
 
   margin-top: 5px;
+
+  color: #62c7c0;
 
   font-family:
     "SFMono-Regular",
@@ -381,24 +465,48 @@ p {
 
   font-size: 11px;
 
+  font-weight: 600;
+
   letter-spacing: 1px;
 }
 
-
-/* ---------- CONTACT ---------- */
-
-strong {
-  color: #e8e9e6;
+.project-card > a:hover {
+  color: #8be0da;
 }
 
 
-/* ---------- FOOTER ---------- */
+/* =========================================
+   HORIZONTAL RULES
+   ========================================= */
+
+hr {
+
+  border: 0;
+
+  border-top: 1px solid #292d31;
+
+  margin: 45px 0;
+}
+
+
+/* =========================================
+   CONTACT
+   ========================================= */
+
+strong {
+  color: #f1f2ef;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
 
 .footer {
 
   margin-top: 90px;
 
-  padding: 35px 0;
+  padding: 35px 0 50px;
 
   border-top: 1px solid #292d31;
 
@@ -418,65 +526,80 @@ strong {
 }
 
 
-/* ---------- REMOVE MODERNIST ELEMENTS ---------- */
-
-header,
-.downloads,
-#header_wrap,
-#footer_wrap {
-
-  background: transparent;
-}
-
-
-/* ---------- MOBILE ---------- */
+/* =========================================
+   MOBILE
+   ========================================= */
 
 @media screen and (max-width: 700px) {
 
-  .top-nav {
+  .wrapper {
+    padding: 0 20px;
+  }
 
+  .top-nav {
     align-items: flex-start;
 
+    padding: 20px 0;
   }
 
   .nav-links {
-
     gap: 12px;
+  }
 
+  .nav-links a {
+    font-size: 10px;
   }
 
   .hero {
-
-    padding: 55px 10px 65px;
-
-  }
-
-  .hero h1 {
-
-    font-size: 36px;
-
-    letter-spacing: -1px;
-
-  }
-
-  .hero-description {
-
-    font-size: 16px;
-
+    padding: 55px 10px 60px;
   }
 
   .profile-photo {
-
     width: 145px;
-
     height: 145px;
+  }
 
+  .hero h1 {
+    font-size: 36px;
+
+    letter-spacing: -1px;
+  }
+
+  .hero-description {
+    font-size: 16px;
   }
 
   .project-grid {
-
     grid-template-columns: 1fr;
+  }
 
+  h2 {
+    margin-top: 50px;
+  }
+
+}
+
+
+/* =========================================
+   VERY SMALL SCREENS
+   ========================================= */
+
+@media screen and (max-width: 450px) {
+
+  .top-nav {
+    flex-direction: column;
+
+    gap: 12px;
+  }
+
+  .nav-links {
+    width: 100%;
+
+    justify-content: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 30px;
   }
 
 }
