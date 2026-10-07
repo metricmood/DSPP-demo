@@ -6,7 +6,7 @@
 
 /* =========================================================
    METRICMOOD
-   Dark Minimalist Data Analyst Portfolio
+   Wide Editorial / Dark Minimalist Portfolio
    ========================================================= */
 
 
@@ -42,30 +42,35 @@ body {
 }
 
 
-/* Main page */
+/* =========================================================
+   PAGE WIDTH
+   ========================================================= */
 
-.wrapper,
+.wrapper {
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  padding: 0 55px;
+
+  background: #0d0f10 !important;
+}
+
 section,
 #main_content {
+  width: 100%;
+  max-width: 1290px;
+
+  margin: 0 auto;
+
   background: #0d0f10 !important;
   color: #e8e9e6;
 }
 
-.wrapper {
-  max-width: 1350px;
-  margin: 0 auto;
-  padding: 0 45px;
-}
-
-section {
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 
 /* =========================================================
-   REMOVE DEFAULT MODERNIST HEADER
+   REMOVE ORIGINAL MODERNIST HEADER
    ========================================================= */
 
 #header_wrap,
@@ -80,6 +85,7 @@ header {
 
 a {
   color: #62c7c0;
+
   text-decoration: none;
 
   transition:
@@ -88,6 +94,7 @@ a {
 
 a:hover {
   color: #8be0da;
+
   text-decoration: none;
 }
 
@@ -125,7 +132,7 @@ a:hover {
 .nav-links {
   display: flex;
 
-  gap: 25px;
+  gap: 28px;
 }
 
 .nav-links a {
@@ -148,7 +155,9 @@ a:hover {
 .hero {
   text-align: center;
 
-  padding: 55px 20px 55px;
+  padding: 70px 20px 75px;
+
+  border-bottom: 1px solid #292d31;
 }
 
 .profile-photo {
@@ -192,7 +201,7 @@ a:hover {
 
   color: #f1f2ef !important;
 
-  font-size: 40px;
+  font-size: 48px;
 
   font-weight: 650;
 
@@ -206,9 +215,9 @@ a:hover {
 
   color: #b7bdc1;
 
-  font-size: 16px;
+  font-size: 18px;
 
-  font-weight: 400;
+  font-weight: 500;
 
   line-height: 1.7;
 
@@ -235,7 +244,7 @@ a:hover {
 
 
 /* =========================================================
-   HEADINGS
+   SECTION HEADINGS
    ========================================================= */
 
 h1,
@@ -245,8 +254,8 @@ h3 {
 }
 
 h2 {
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 65px;
+  margin-bottom: 28px;
 
   padding-bottom: 12px;
 
@@ -282,6 +291,23 @@ p {
 
 
 /* =========================================================
+   ABOUT
+   ========================================================= */
+
+.about {
+  max-width: 1000px;
+
+  font-size: 17px;
+
+  line-height: 1.8;
+}
+
+.about p {
+  margin-bottom: 22px;
+}
+
+
+/* =========================================================
    SKILLS
    ========================================================= */
 
@@ -296,7 +322,7 @@ p {
 
 .skills span,
 .learning span {
-  padding: 8px 12px;
+  padding: 8px 13px;
 
   background: #15181b;
 
@@ -342,7 +368,7 @@ p {
   grid-template-columns:
     repeat(3, 1fr);
 
-  gap: 18px;
+  gap: 20px;
 }
 
 
@@ -355,9 +381,9 @@ p {
 
   flex-direction: column;
 
-  min-height: 320px;
+  min-height: 330px;
 
-  padding: 28px;
+  padding: 30px;
 
   background: #15181b;
 
@@ -380,7 +406,7 @@ p {
 }
 
 .project-number {
-  margin: 0 0 20px;
+  margin: 0 0 22px;
 
   color: #62c7c0 !important;
 
@@ -394,17 +420,17 @@ p {
 }
 
 .project-card h3 {
-  margin: 0 0 12px;
+  margin: 0 0 15px;
 
   color: #f1f2ef !important;
 
-  font-size: 18px;
+  font-size: 19px;
 
   font-weight: 700;
 
   line-height: 1.4;
 
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
 }
 
 .project-card p {
@@ -414,7 +440,7 @@ p {
 
   font-size: 14px;
 
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 
@@ -427,9 +453,9 @@ p {
 
   flex-wrap: wrap;
 
-  gap: 7px;
+  gap: 8px;
 
-  margin: 20px 0;
+  margin: 22px 0;
 }
 
 .project-tags span {
@@ -456,7 +482,7 @@ p {
 
   margin-top: auto;
 
-  padding-top: 15px;
+  padding-top: 18px;
 
   color: #62c7c0;
 
@@ -487,7 +513,7 @@ hr {
 
   border-top: 1px solid #292d31;
 
-  margin: 45px 0;
+  margin: 50px 0;
 }
 
 
@@ -528,18 +554,30 @@ strong {
 
 
 /* =========================================================
-   MOBILE
+   RESPONSIVE — TABLET
    ========================================================= */
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
+
+  .wrapper {
+    padding: 0 35px;
+  }
+
+  section,
+  #main_content {
+    max-width: 100%;
+  }
 
   .project-grid {
     grid-template-columns:
       repeat(2, 1fr);
   }
-
 }
 
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+   ========================================================= */
 
 @media screen and (max-width: 700px) {
 
@@ -554,7 +592,7 @@ strong {
   }
 
   .nav-links {
-    gap: 12px;
+    gap: 14px;
   }
 
   .nav-links a {
@@ -562,7 +600,7 @@ strong {
   }
 
   .hero {
-    padding: 50px 10px 55px;
+    padding: 55px 10px 60px;
   }
 
   .profile-photo {
@@ -591,6 +629,10 @@ strong {
 }
 
 
+/* =========================================================
+   RESPONSIVE — VERY SMALL SCREENS
+   ========================================================= */
+
 @media screen and (max-width: 450px) {
 
   .top-nav {
@@ -609,6 +651,10 @@ strong {
 
   .hero h1 {
     font-size: 30px;
+  }
+
+  .hero-description {
+    font-size: 15px;
   }
 
 }
