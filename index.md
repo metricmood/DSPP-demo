@@ -22,7 +22,7 @@ layout: default
 
 <p class="eyebrow">DATA ANALYST</p>
 
-<h1>Hi, I'm MetricMood.</h1>
+<h1>Hi, I'm MetricMood</h1>
 
 <p class="hero-description">
 I use data to solve problems, discover insights
