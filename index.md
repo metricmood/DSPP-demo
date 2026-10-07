@@ -26,6 +26,7 @@ layout: default
 
 <p class="hero-description">
 I’m a Data Analyst focused on turning complex data into clear, actionable insights. I enjoy exploring data, identifying trends and patterns, and creating visualisations that make information easier to understand and use.
+
 I’m developing my skills across Python, SQL, Power BI and data visualisation, with a particular interest in healthcare performance analysis and turning data into insights that support better decisions.
 </p>
 
