@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
 @import "{{ site.theme }}";
 
 
@@ -209,13 +211,17 @@ a:hover {
 
   color: #f1f2ef !important;
 
-  font-size: 48px;
+  font-family: "Josefin Sans", sans-serif;
 
-  font-weight: 650;
+  font-size: 52px;
+
+  font-weight: 300;
 
   line-height: 1.2;
 
-  letter-spacing: -2px;
+  letter-spacing: 8px;
+
+  text-transform: uppercase;
 }
 
 .hero-description {
