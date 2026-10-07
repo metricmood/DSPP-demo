@@ -25,9 +25,7 @@ layout: default
 <h1>Hi, I'm MetricMood</h1>
 
 <p class="hero-description">
-Test
-
-Test
+ANALYSING DATA | BUILDING INSIGHTS | SOLVING PROBLEMS
 </p>
 
 <div class="hero-links">
