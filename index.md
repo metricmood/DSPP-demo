@@ -87,16 +87,16 @@ layout: default
     <div class="about-text">
 
       <p>
-        I enjoy taking messy or complex data and turning it into
-        something useful and understandable. I'm interested in
-        finding the story behind the numbers, creating clear
-        visualisations, and using data to answer real-world questions.
+        I’m a Data Analyst focused on turning complex data into clear, 
+        actionable insights. I enjoy exploring data, identifying trends 
+        and patterns, and creating visualisations that make information 
+        easier to understand and use.
       </p>
 
       <p>
         I'm developing my skills across Python, SQL, Power BI and
-        data visualisation, with a particular interest in performance
-        analysis and turning data into insights that support better
+        data visualisation, with a particular interest in healthcare 
+        analytics and turning data into insights that support better
         decisions.
       </p>
 
