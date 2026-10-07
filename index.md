@@ -140,7 +140,7 @@ layout: default
 <section class="portfolio-section">
 
   <h2>
-    03 / SELECTED WORK
+    03 / PROJECTS
   </h2>
 
 
