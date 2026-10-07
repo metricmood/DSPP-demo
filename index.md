@@ -1,10 +1,10 @@
-<div align="center">
-
-<img src="/images/metricmoodgh.jpg"
-     alt="Profile Picture"
-     width="180"
-     height="180"
-     style="border-radius: 50%; object-fit: cover;">
+<p align="center">
+  <img src="images/metricmoodgh.jpg"
+       alt="Profile Picture"
+       width="180"
+       height="180"
+       style="border-radius: 50%; object-fit: cover;">
+</p>
 
 # Hi, I'm MetricMood 👋
 
@@ -14,19 +14,15 @@
 [LinkedIn](https://www.linkedin.com/) •
 [Email](mailto:your-email@example.com)
 
-</div>
-
 ---
 
 # 👨‍💻 About Me
 
 Welcome to my portfolio!
 
-I'm a Data Analyst interested in using data to solve problems,
-discover insights, and support better decision-making.
+I'm a Data Analyst interested in using data to solve problems, discover insights, and support better decision-making.
 
-I'm continuously developing my skills in data analysis,
-visualisation, programming, and working with data.
+I'm continuously developing my skills in data analysis, visualisation, programming, and working with data.
 
 ---
 
@@ -54,8 +50,7 @@ visualisation, programming, and working with data.
 ## Project 1
 
 **Description:**  
-Add a short description of your project here. Explain what you
-built, what problem it solves, and what you learned.
+Add a short description of your project here. Explain what you built, what problem it solves, and what you learned.
 
 **Technologies:** Python, SQL, Excel
 
@@ -107,8 +102,8 @@ I'd love to connect!
 
 ---
 
-<div align="center">
+<p align="center">
 
 ### Thanks for visiting my portfolio! ⭐
 
-</div>
+</p>
