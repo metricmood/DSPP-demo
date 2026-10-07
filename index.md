@@ -37,7 +37,7 @@ layout: default
   </p>
 
   <h1>
-    Hi, I'm MetricMood
+    METRICMOOD
   </h1>
 
   <p class="hero-description">
