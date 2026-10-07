@@ -1,24 +1,30 @@
-<p align="center">
-  <img src="images/metricmoodgh.jpg"
-       alt="Profile Picture"
-       width="180"
-       height="180"
-       style="border-radius: 50%; object-fit: cover;">
+---
+layout: default
+---
+
+<div class="hero">
+
+<img class="profile-photo"
+     src="images/metricmoodgh.jpg"
+     alt="MetricMood profile picture">
+
+<h1>Hi, I'm MetricMood 👋</h1>
+
+<p class="subtitle">Data Analyst</p>
+
+<p class="links">
+<a href="https://github.com/metricmood">GitHub</a>
+<span>·</span>
+<a href="https://www.linkedin.com/">LinkedIn</a>
+<span>·</span>
+<a href="mailto:your-email@example.com">Email</a>
 </p>
 
-# Hi, I'm MetricMood 👋
-
-### Data Analyst
-
-[GitHub](https://github.com/metricmood) •
-[LinkedIn](https://www.linkedin.com/) •
-[Email](mailto:your-email@example.com)
+</div>
 
 ---
 
-# 👨‍💻 About Me
-
-Welcome to my portfolio!
+## 👋 About Me
 
 I'm a Data Analyst interested in using data to solve problems, discover insights, and support better decision-making.
 
@@ -26,84 +32,87 @@ I'm continuously developing my skills in data analysis, visualisation, programmi
 
 ---
 
-# 🛠️ Skills
+## 🛠 Skills
 
-### Data Analysis
+<div class="skills">
 
-- Python
-- SQL
-- Excel
-- Data Cleaning
-- Data Visualisation
+<span>Python</span>
+<span>SQL</span>
+<span>Excel</span>
+<span>Power BI</span>
+<span>Pandas</span>
+<span>Data Visualisation</span>
+<span>Data Cleaning</span>
+<span>Jupyter</span>
 
-### Tools & Technologies
-
-- Git
-- GitHub
-- Jupyter Notebook
-- VS Code
+</div>
 
 ---
 
-# 🚀 Projects
+## 🚀 Selected Projects
 
-## Project 1
+<div class="projects">
 
-**Description:**  
-Add a short description of your project here. Explain what you built, what problem it solves, and what you learned.
+### NHS Performance Analysis
 
-**Technologies:** Python, SQL, Excel
+**Data analysis and visualisation project**
 
-[View Project →](https://github.com/metricmood)
+Analysing healthcare performance data to identify trends, patterns and opportunities for improvement.
 
----
+`Power BI` `Excel` `Data Analysis`
 
-## Project 2
-
-**Description:**  
-Add your second project description here.
-
-**Technologies:** Python, Pandas, Matplotlib
-
-[View Project →](https://github.com/metricmood)
+[View project →](https://github.com/metricmood)
 
 ---
 
-## Project 3
+### Data Analysis Project
 
-**Description:**  
-Add your third project description here.
+**Exploring data to find meaningful insights**
 
-**Technologies:** Add technologies here
+A data analysis project using Python and Pandas to clean, explore and visualise a dataset.
 
-[View Project →](https://github.com/metricmood)
+`Python` `Pandas` `Matplotlib`
 
----
-
-# 📊 Currently Learning
-
-- Data Analytics
-- Python
-- SQL
-- Data Visualisation
-- Machine Learning
+[View project →](https://github.com/metricmood)
 
 ---
 
-# 📫 Contact
+### SQL Data Exploration
 
-I'd love to connect!
+**Using SQL to answer business questions**
+
+A SQL project focused on querying, transforming and analysing structured data.
+
+`SQL` `Data Analysis` `Data Cleaning`
+
+[View project →](https://github.com/metricmood)
+
+</div>
+
+---
+
+## 📊 Currently Learning
+
+I'm currently developing my skills in:
+
+`Python` · `SQL` · `Power BI` · `Data Visualisation` · `Machine Learning`
+
+---
+
+## 📫 Let's Connect
+
+I'm always happy to connect with other people working with data.
 
 **GitHub:** [@metricmood](https://github.com/metricmood)
 
 **LinkedIn:** [Connect with me](https://www.linkedin.com/)
 
-**Email:** [your-email@example.com](mailto:your-email@example.com)
+**Email:** [Get in touch](mailto:your-email@example.com)
 
 ---
 
-<p align="center">
+<div class="footer-message">
 
-### Thanks for visiting my portfolio! ⭐
+Thanks for visiting my portfolio ⭐
 
-</p>
+</div>
